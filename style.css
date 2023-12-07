@@ -1,0 +1,111 @@
+/* Styles de base */
+body {
+    background: #19381F;
+    color: #ffbe3c;
+    font-family: 'Brush Script', serif;
+    font-size: 17px;
+}
+
+/* Styles des images */
+img {
+    width: 140px;
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+
+/* Styles des titres */
+h1, h2, h3 {
+    font-family: 'edo SZ';
+    font-weight: bold;
+    color: #91CB3E;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2, h3 {
+    font-size: 24px;
+}
+
+/* Styles des liens */
+a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #35A29F;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+/* Styles des conteneurs */
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+    .container {
+        width: 700px;
+    }
+}
+
+@media (max-width: 720px) {
+    .container {
+        width: 500px;
+    }
+}
+
+@media (max-width: 540px) {
+    .container {
+        width: 300px;
+    }
+}
+
+/* Styles des cartes */
+.card-design {
+    background-color: #4C934C;
+    padding: 30px;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5);
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Styles des images circulaires */
+.img-circle {
+    border-radius: 20%;
+}
+
+/* Styles des boutons bleus */
+.btn-blue {
+    background-color: #19381F;
+    color: #ffbe3c;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+
+.btn-blue:hover {
+    background-color: #ffbe3c;
+    color: #19381F;
+}
+
+/* Styles des listes en ligne */
+.list-inline {
+    list-style: none;
+    padding-left: 0;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+
+.list-inline i {
+    font-size: 50px;
+    color: #19381F;
+}
+
